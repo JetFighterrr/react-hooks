@@ -1,4 +1,4 @@
-const initialState = {
+export const initialState = {
     values: ["1","2","3"]
 };
 
