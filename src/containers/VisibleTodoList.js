@@ -1,23 +1,20 @@
 import React from "react";
-import {useState} from "react";
+import {useSelector, useDispatch} from "react-redux";
+import {removeElement, useLocalStore} from "../store/useStore"
 
 const VisibleTodoList = () => {
-    const [myList, updateList] = useState(["1","2","3"]);
-
-    const removeElement = (index) => {
-        updateList(
-            [...myList.slice(0,index), ...myList.slice(index+1)]
-        );
-    };
+    //const state = useStore();
+    const values = useSelector(state => state.values);
+    const storeHere = useLocalStore();
+    // const dispatch = useDispatch();
 
     return (
         <ul>
-            {myList.map((element, index) => {
+            {values.map((element, index) => {
                     return (
                         <li
                             key={index}
-                            onClick = { () => removeElement(index) }
-                        >
+                            onClick = { () => removeElement(index) }>
                             {element}
                         </li>)
                     }
