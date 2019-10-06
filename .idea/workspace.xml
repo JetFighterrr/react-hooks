@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="215a944a-0417-47ba-9a27-bb4e909d538a" name="Default Changelist" comment="" />
+    <list default="true" id="215a944a-0417-47ba-9a27-bb4e909d538a" name="Default Changelist" comment="vg2">
+      <change afterPath="$PROJECT_DIR$/src/actions/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/useStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AddTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AddTodo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/VisibleTodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/VisibleTodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/todoReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/todoReducers.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RBQoMGZOL9VSVUUaI5aZL709WX" />
@@ -78,7 +90,9 @@
       <updated>1569138182654</updated>
       <workItem from="1569138183836" duration="8706000" />
       <workItem from="1569585712907" duration="30000" />
-      <workItem from="1569585802673" duration="31981000" />
+      <workItem from="1569585802673" duration="38852000" />
+      <workItem from="1570254416188" duration="8306000" />
+      <workItem from="1570331241179" duration="4026000" />
     </task>
     <task id="LOCAL-00001" summary="vg">
       <created>1570087604991</created>
@@ -87,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570087604991</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="vg2">
+      <created>1570113209122</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570113209122</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vg" />
-    <option name="LAST_COMMIT_MESSAGE" value="vg" />
+    <MESSAGE value="vg2" />
+    <option name="LAST_COMMIT_MESSAGE" value="vg2" />
   </component>
 </project>

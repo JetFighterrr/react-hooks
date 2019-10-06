@@ -1,20 +1,13 @@
  import React from "react";
 import {useState} from "react";
-import { useDispatch } from 'react-redux';
-
- // import {useDispatch, useSelector} from "react-redux";
+import {sendUpdate} from '../store/useStore';
 
 const AddTodo = () => {
     const [input, handleInput] = useState('');
-    const dispatch = useDispatch();
-    const sendUpdate = (value) => {
-        return {
-            type: "ADD_TODO",
-            value
-        }
-    };
+    // const {sendUpdate} = useTodo();
+
     const handleClick = (value) => {
-        dispatch(sendUpdate(value));
+        sendUpdate(value);
         handleInput('');
     };
 
@@ -24,7 +17,7 @@ const AddTodo = () => {
                     value = { input }
                     placeholder = "Start typing your todo"
                     type = "text"
-                    onChange = {(e) => {handleInput(e.target.value)}}
+                    onChange = {(e) => handleInput(e.target.value)}
                 >
                 </input>
                 <button
