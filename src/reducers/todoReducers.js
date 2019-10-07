@@ -2,7 +2,7 @@ export const initialState = {
     values: ["1","2","3"]
 };
 
-const todo = (state = initialState, action) => {
+const reducer = (state = initialState, action) => {
     switch(action.type){
         case "ADD_TODO":
             return {
@@ -18,4 +18,4 @@ const todo = (state = initialState, action) => {
     }
 };
 
-export {todo};
+export {reducer};

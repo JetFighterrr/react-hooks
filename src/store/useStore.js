@@ -1,44 +1,25 @@
-import React, {createContext, useReducer, useContext} from "react";
-import { todo as todoReducers } from "../reducers/todoReducers";
+import React, {createContext, useReducer} from "react";
+import {createStore} from "redux";
+import { reducer, initialState } from "../reducers/todoReducers";
+// import {createStore} from "redux";
 
-export const sendUpdate = (value) => {
-    return {
-        type: "ADD_TODO",
-        value
-    }
-};
+const Store = createContext('someStoreContext');
 
-export const removeElement = (index) => {
-    return {
-        type: "REMOVE_TODO",
-        index
-    };
-};
 
-export const todoActions = (dispatch) => ({
-    sendUpdate: value => dispatch(sendUpdate(value)),
-    removeElement: index => dispatch(removeElement(index))
-});
-
-// const useTodoHook = () => {
-//     const [todos, dispatch] = useReducer(todoReducers, []);
-//     const {sendUpdate, removeElement} = todoActions(dispatch);
-//     return {todos, sendUpdate, removeElement};
-// };
-
-const StoreContext = createContext([]);
-
-export const StoreProvider = ( {children} ) => {
-    const [state, dispatch] = useReducer(todoReducers, []);
+const Provider = ( {children} ) => {
+    const store = createStore(reducer, initialState);
     return(
-        <StoreContext.Provider value = {{state, dispatch}}>{children}</StoreContext.Provider>
+        <Store.Provider value ={store}>{children}</Store.Provider>
     );
 };
 
-export const useLocalStore = (store) => {
-    const {state, dispatch} = useContext(StoreContext);
-    return {state, dispatch};
-};
+export {Store, Provider};
+
+    // const createStore = (reducer, initialState ) => {
+    //   const [state, dispatch] = useReducer(reducer, initialState);
+    //   return {state, dispatch};
+    // };
+
 
 
 
