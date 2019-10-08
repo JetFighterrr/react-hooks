@@ -1,13 +1,14 @@
- import React from "react";
-import {useState} from "react";
-import {sendUpdate} from '../store/useStore';
+ import React, {useContext, useState} from "react";
+import {Store, Provider} from '../store/useStore';
+import {sendUpdate} from "../actions/actions";
 
-const AddTodo = () => {
+
+ const AddTodo = () => {
     const [input, handleInput] = useState('');
-    // const {sendUpdate} = useTodo();
+    const {state, dispatch} = useContext(Store);
 
     const handleClick = (value) => {
-        sendUpdate(value);
+        dispatch(sendUpdate(value));
         handleInput('');
     };
 
@@ -22,7 +23,7 @@ const AddTodo = () => {
                 </input>
                 <button
                     type = "submit"
-                    onClick = { (e) => handleClick(e)}
+                    onClick = { (e) => handleClick(e) }
                 >Add Your Todos</button>
         </form>
     );

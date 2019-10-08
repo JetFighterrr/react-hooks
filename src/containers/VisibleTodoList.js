@@ -1,12 +1,10 @@
-import React from "react";
-import {useSelector, useDispatch} from "react-redux";
-import {removeElement, useLocalStore} from "../store/useStore"
+import React, {useContext} from 'react';
+import {Store, Provider} from '../store/useStore';
+import {removeElement} from '../actions/actions';
 
 const VisibleTodoList = () => {
-    //const state = useStore();
-    const values = useSelector(state => state.values);
-    const storeHere = useLocalStore();
-    // const dispatch = useDispatch();
+    const {state, dispatch} = useContext(Store);
+    const values = ["1","2","3"];
 
     return (
         <ul>
@@ -14,7 +12,7 @@ const VisibleTodoList = () => {
                     return (
                         <li
                             key={index}
-                            onClick = { () => removeElement(index) }>
+                            onClick = { () => dispatch(removeElement(index)) }>
                             {element}
                         </li>)
                     }
