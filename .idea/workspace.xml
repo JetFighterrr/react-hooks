@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="medium" />
+        <entry key="$PROJECT_DIR$" value="medium1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,7 +90,8 @@
       <workItem from="1569585712907" duration="30000" />
       <workItem from="1569585802673" duration="38852000" />
       <workItem from="1570254416188" duration="8306000" />
-      <workItem from="1570331241179" duration="16148000" />
+      <workItem from="1570331241179" duration="17458000" />
+      <workItem from="1570597555589" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="vg">
       <created>1570087604991</created>
@@ -127,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570458656259</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="vg23">
+      <created>1570508165234</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570508165234</updated>
+    </task>
+    <task id="LOCAL-00007" summary="vg23">
+      <created>1570508234014</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570508234014</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +164,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vg" />
     <MESSAGE value="vg2" />
-    <option name="LAST_COMMIT_MESSAGE" value="vg2" />
+    <MESSAGE value="vg23" />
+    <option name="LAST_COMMIT_MESSAGE" value="vg23" />
   </component>
 </project>
