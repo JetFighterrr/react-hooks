@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="215a944a-0417-47ba-9a27-bb4e909d538a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="215a944a-0417-47ba-9a27-bb4e909d538a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="medium1" />
+        <entry key="$PROJECT_DIR$" value="medium2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,6 +90,7 @@
       <workItem from="1570254416188" duration="8306000" />
       <workItem from="1570331241179" duration="17458000" />
       <workItem from="1570597555589" duration="610000" />
+      <workItem from="1570682998120" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="vg">
       <created>1570087604991</created>
