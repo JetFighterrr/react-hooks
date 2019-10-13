@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="215a944a-0417-47ba-9a27-bb4e909d538a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/AddTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AddTodo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/VisibleTodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/VisibleTodoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/todoReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/todoReducers.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +22,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="medium3" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RBQoMGZOL9VSVUUaI5aZL709WX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -101,7 +98,7 @@
       <workItem from="1570748351405" duration="648000" />
       <workItem from="1570893506703" duration="3558000" />
       <workItem from="1570937808325" duration="4341000" />
-      <workItem from="1570980298644" duration="3568000" />
+      <workItem from="1570980298644" duration="3821000" />
     </task>
     <task id="LOCAL-00001" summary="vg">
       <created>1570087604991</created>
@@ -173,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570769811797</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="final">
+      <created>1571000345221</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571000345221</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +215,8 @@
     <MESSAGE value="vg2" />
     <MESSAGE value="vg23" />
     <MESSAGE value="vg234" />
-    <option name="LAST_COMMIT_MESSAGE" value="vg234" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
