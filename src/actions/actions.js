@@ -12,8 +12,3 @@ export const removeElement = (index) => {
         payload: index
     };
 };
-
-export const todoActions = (dispatch) => ({
-    sendUpdate: value => dispatch(sendUpdate(value)),
-    removeElement: index => dispatch(removeElement(index))
-});

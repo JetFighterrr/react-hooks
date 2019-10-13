@@ -1,13 +1,13 @@
  import React, {useContext, useState} from "react";
-import {Store, Provider} from '../store/useStore';
+import {Store, StoreProvider} from '../store/useStore';
 import {sendUpdate} from "../actions/actions";
-
 
  const AddTodo = () => {
     const [input, handleInput] = useState('');
     const {state, dispatch} = useContext(Store);
 
     const handleClick = (value) => {
+        value.preventDefault();
         dispatch(sendUpdate(value));
         handleInput('');
     };
@@ -31,3 +31,4 @@ import {sendUpdate} from "../actions/actions";
 };
 
 export default AddTodo;
+
