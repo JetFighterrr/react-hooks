@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="215a944a-0417-47ba-9a27-bb4e909d538a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/AddTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AddTodo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/VisibleTodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/VisibleTodoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/todoReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/todoReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/useStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/useStore.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +98,8 @@
       <workItem from="1570331241179" duration="17458000" />
       <workItem from="1570597555589" duration="610000" />
       <workItem from="1570682998120" duration="5388000" />
-      <workItem from="1570748351405" duration="616000" />
+      <workItem from="1570748351405" duration="648000" />
+      <workItem from="1570893506703" duration="3558000" />
     </task>
     <task id="LOCAL-00001" summary="vg">
       <created>1570087604991</created>
@@ -161,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570686703841</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="vg234">
+      <created>1570769811797</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570769811797</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

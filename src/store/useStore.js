@@ -1,25 +1,15 @@
 import React, {createContext, useReducer} from "react";
 import {createStore} from "redux";
 import { reducer, initialState } from "../reducers/todoReducers";
-// import {createStore} from "redux";
 
-const Store = createContext('someStoreContext');
+const store = createStore(reducer, initialState);
 
+const Store = createContext(undefined);
 
-const Provider = ( {children} ) => {
-    const store = createStore(reducer, initialState);
+const StoreProvider = ({children} ) => {
     return(
         <Store.Provider value ={store}>{children}</Store.Provider>
     );
 };
 
-export {Store, Provider};
-
-    // const createStore = (reducer, initialState ) => {
-    //   const [state, dispatch] = useReducer(reducer, initialState);
-    //   return {state, dispatch};
-    // };
-
-
-
-
+export {Store, StoreProvider};

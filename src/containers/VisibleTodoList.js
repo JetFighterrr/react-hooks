@@ -1,12 +1,11 @@
 import React, {useContext} from 'react';
-import {Store, Provider} from '../store/useStore';
+import {Store, StoreProvider} from '../store/useStore';
 import {removeElement} from '../actions/actions';
-import {shallowEqual, useSelector} from "react-redux";
+import {useSelector} from "react-redux";
 
 const VisibleTodoList = () => {
-    const values = useSelector(state => state.values);
     const {state, dispatch} = useContext(Store);
-    // const values = ["1","2","3"];
+    const values = useSelector(state => state.values);
 
     return (
         <ul>

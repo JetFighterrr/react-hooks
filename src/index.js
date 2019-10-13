@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
-import {Provider, Store} from './store/useStore';
+import {StoreProvider, Store} from './store/useStore';
 
 
 
 ReactDOM.render(
-    <Provider store = {Store}>
+    <StoreProvider store = {Store}>
         <App />
-    </Provider>,
+    </StoreProvider>,
     document.getElementById('root')
 );
 
