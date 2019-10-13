@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
-import {StoreProvider, Store} from './store/useStore';
+import {StoreProvider} from './store/useStore';
 
 
 
 ReactDOM.render(
-    <StoreProvider store = {Store}>
+    <StoreProvider>
         <App />
     </StoreProvider>,
     document.getElementById('root')

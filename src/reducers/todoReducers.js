@@ -6,7 +6,7 @@ const reducer = (state = initialState, action) => {
     switch(action.type){
         case "ADD_TODO":
             return {
-                values: Array.of(...state.values, ...action.payload)
+                values: [...state.values, action.payload]
             };
         case "REMOVE_TODO": {
             let index = action.payload;

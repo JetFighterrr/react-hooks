@@ -1,14 +1,14 @@
- import React, {useContext, useState} from "react";
-import {Store, StoreProvider} from '../store/useStore';
-import {sendUpdate} from "../actions/actions";
+ import React, {useState} from "react";
+import {useTodo} from '../store/useStore';
+//import {sendUpdate} from "../actions/actions";
 
  const AddTodo = () => {
-    const [input, handleInput] = useState('');
-    const {state, dispatch} = useContext(Store);
+     const [input, handleInput] = useState('');
+      const { sendUpdate } = useTodo();
 
     const handleClick = (value) => {
         value.preventDefault();
-        dispatch(sendUpdate(value));
+        sendUpdate(value);
         handleInput('');
     };
 
