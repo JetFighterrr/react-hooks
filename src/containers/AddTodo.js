@@ -6,9 +6,9 @@ import {useTodo} from '../store/useStore';
      const [input, handleInput] = useState('');
       const { sendUpdate } = useTodo();
 
-    const handleClick = (value) => {
-        value.preventDefault();
-        sendUpdate(value);
+    const handleClick = (e) => {
+        e.preventDefault();
+        sendUpdate(input);
         handleInput('');
     };
 

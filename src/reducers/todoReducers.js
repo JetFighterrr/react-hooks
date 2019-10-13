@@ -4,10 +4,12 @@ export const initialState = {
 
 const reducer = (state = initialState, action) => {
     switch(action.type){
-        case "ADD_TODO":
+        case "ADD_TODO":{
+            let value = action.payload;
             return {
-                values: [...state.values, action.payload]
+                values: Array.of(...state.values, value)
             };
+        }
         case "REMOVE_TODO": {
             let index = action.payload;
             return {

@@ -4,12 +4,13 @@ import {useTodo} from '../store/useStore';
 const VisibleTodoList = () => {
     const {todos, removeElement} = useTodo();
 
+
     return (
         <ul>
             {todos.values.map((element, index) => {
                     return (
                         <li
-                            key={index}
+                            key = {index}
                             onClick = { () => removeElement(index) }>
                             {element}
                         </li>)
